@@ -13,7 +13,7 @@ const Home = () => {
       const response = await fetch(API_URL);
       const data = await response.json();
       setItems(data);
-      console.log(data);
+      // console.log(data);
     } catch (error) {
       console.log(error);
       toast.error("Error Loading Data");

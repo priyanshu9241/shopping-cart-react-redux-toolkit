@@ -1,6 +1,7 @@
 import React from "react";
 import { MdDeleteSweep } from "react-icons/md";
 import { useDispatch } from "react-redux";
+import { remove } from "../redux/slices/cartSlice";
 
 const CartItem = ({ item }) => {
   const dispatch = useDispatch();
